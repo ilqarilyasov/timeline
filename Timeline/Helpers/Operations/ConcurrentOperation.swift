@@ -1,6 +1,6 @@
 //
 //  ConcurrentOperation.swift
-//  LambdaTimeline
+//  Timeline
 //
 //  Created by Andrew Madsen
 //  Copyright © 2018 Lambda School. All rights reserved.

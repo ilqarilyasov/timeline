@@ -1,6 +1,6 @@
 //
 //  Cache.swift
-//  LambdaTimeline
+//  Timeline
 //
 //  Created by Spencer Curtis on 10/13/18.
 //  Copyright © 2018 Lambda School. All rights reserved.

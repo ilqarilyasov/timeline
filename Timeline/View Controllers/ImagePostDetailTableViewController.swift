@@ -1,6 +1,6 @@
 //
 //  ImagePostDetailTableViewController.swift
-//  LambdaTimeline
+//  Timeline
 //
 //  Created by Spencer Curtis on 10/14/18.
 //  Copyright © 2018 Lambda School. All rights reserved.

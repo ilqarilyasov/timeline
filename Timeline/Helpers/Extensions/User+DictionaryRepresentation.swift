@@ -1,6 +1,6 @@
 //
 //  User+DictionaryRepresentation.swift
-//  LambdaTimeline
+//  Timeline
 //
 //  Created by Spencer Curtis on 10/12/18.
 //  Copyright © 2018 Lambda School. All rights reserved.
