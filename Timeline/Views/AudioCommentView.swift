@@ -15,9 +15,13 @@ protocol AudioCommentViewDelegate: class {
 
 class AudioCommentView: UIView {
     
-    var delegate: AudioCommentViewDelegate?
+    override func draw(_ rect: CGRect) {
+        self.layer.cornerRadius = 20
+        self.layer.masksToBounds = true
+    }
     
-    @IBOutlet weak var containerView: UIView!
+    weak var delegate: AudioCommentViewDelegate?
+    
     @IBOutlet weak var recordButton: UIButton!
     
     @IBAction func record(_ sender: Any) {
