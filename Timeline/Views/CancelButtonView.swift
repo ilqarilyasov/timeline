@@ -19,5 +19,4 @@ class CancelButtonView: UIView {
     @IBAction func cancel(_ sender: Any) {
         delegate?.cancelButtonTapped(on: self)
     }
-    
 }

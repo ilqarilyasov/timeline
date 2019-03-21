@@ -12,18 +12,19 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelButtonView" customModule="Timeline" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CancelButtonView" customModule="Timeline" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="342" height="80"/>
+            <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYn-wd-ark">
-                    <rect key="frame" x="146" y="15" width="50" height="50"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYn-wd-ark">
+                    <rect key="frame" x="150" y="15" width="50" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="96m-du-KsD"/>
                         <constraint firstAttribute="width" constant="50" id="Ffn-ET-BYI"/>
                     </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" image="cancel-50"/>
                     <connections>
-                        <action selector="cancel:" destination="-1" eventType="touchUpInside" id="PNR-aY-Yw1"/>
+                        <action selector="cancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="KwR-xU-nm7"/>
                     </connections>
                 </button>
             </subviews>
